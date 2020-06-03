@@ -20,7 +20,7 @@ let mapleader = "\<Space>"
 " - [x] theme
 " - [x] auto complete -- kind of
 " - [ ] save project
-" - [ ] shell quick shell access
+" - [x] shell quick shell access
 
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
