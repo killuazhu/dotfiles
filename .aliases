@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# git
+alias gst="git status"
+alias gl="git pull"
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gcb="git checkout -b"
+alias gcm="git checkout master"

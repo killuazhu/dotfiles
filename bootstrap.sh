@@ -15,7 +15,9 @@ function doIt() {
 
 	# setup symlink for nvim
 	mkdir -p ~/.config/nvim
-	ln -s ~/.vimrc ~/.config/nvim/init.vim
+	if [ ! -h ~/.config/nvim/init.vim ]; then
+		ln -s ~/.vimrc ~/.config/nvim/init.vim
+	fi
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
