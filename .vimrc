@@ -5,6 +5,7 @@ let g:coc_disable_startup_warning = 1
 
 " set nohlsearch
 set smartcase
+set mouse=a
 
 " set colorcolumn=80
 " highlight ColorColumn ctermbg=0 guibg=lightgrey
