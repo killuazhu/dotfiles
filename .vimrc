@@ -66,7 +66,7 @@ Plug 'tpope/vim-sensible'
 " let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " Plug 'itchyny/lightline.vim'
-" Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-commentary'
 
 " Plug 'tpope/vim-repeat'
 " Plug 'tpope/vim-surround'
