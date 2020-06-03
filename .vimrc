@@ -1,5 +1,8 @@
 syntax on
 
+" Disable warning message
+let g:coc_disable_startup_warning = 1
+
 " set nohlsearch
 set smartcase
 
