@@ -68,8 +68,8 @@ Plug 'tpope/vim-sensible'
 " Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-commentary'
 
-" Plug 'tpope/vim-repeat'
-" Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
 " Plug 'mhinz/vim-rfc'
 " Plug 'vim-scripts/rfc-syntax', { 'for': 'rfc' } " optional syntax highlighting for RFC files
 " TODO: Learn some more 
