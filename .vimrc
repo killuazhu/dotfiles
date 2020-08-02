@@ -80,7 +80,7 @@ Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim'
 " Change ctrl p setting to c-f
 " let g:ctrlp_map = '<c-f>'
-" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " Plug 'zchee/deoplete-go'
 " Plug 'fszymanski/deoplete-emoji'
 " TODO more reading
