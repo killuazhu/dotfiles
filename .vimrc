@@ -2,6 +2,7 @@ syntax on
 
 " Disable warning message
 let g:coc_disable_startup_warning = 1
+let g:go_version_warning = 0
 
 " set nohlsearch
 set smartcase
