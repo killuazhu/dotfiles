@@ -17,3 +17,12 @@ cd dotfiles
 
 Map CapsLock to ESC
 https://unix.stackexchange.com/a/41402
+
+## TODO
+
+fish config
+bat
+fzf
+history
+rg
+z
