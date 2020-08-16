@@ -109,7 +109,7 @@ Plug 'junegunn/fzf.vim'
 
 " Plug 'tsandall/vim-rego'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Map leader key
 " let mapleader = "\<Space>"
