@@ -4,6 +4,7 @@
 cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
+git submodule update --init --force
 
 function doIt() {
 	rsync --exclude ".git/" \

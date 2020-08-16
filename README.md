@@ -5,8 +5,13 @@ dotfiles
 
 ```shell
 # get submodule
-git submodule update --init
+git clone git@github.com:killuazhu/dotfiles.git
+cd dotfiles
+./bootstrap.sh
 ```
+
+- install vim plugin manager from https://github.com/junegunn/vim-plug
+- launch vim, then run `:PlugInstall`
 
 ## Others
 
