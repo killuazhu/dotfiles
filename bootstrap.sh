@@ -19,6 +19,9 @@ function doIt() {
 	if [ ! -h ~/.config/nvim/init.vim ]; then
 		ln -s ~/.vimrc ~/.config/nvim/init.vim
 	fi
+	# setup nvim plugin
+	sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
