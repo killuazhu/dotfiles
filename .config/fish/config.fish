@@ -1,6 +1,6 @@
 
 # Map caps lock to esc
-if uname -o | grep -q -i linux && test -f ~/.Xmodmap
+if uname -a | grep -q -i linux && test -f ~/.Xmodmap
 	xmodmap - <~/.Xmodmap
 end
 
@@ -35,6 +35,7 @@ abbr gap 'git add --patch'
 abbr gco 'git checkout'
 abbr gcb 'git checkout -b'
 abbr gb 'git branch'
+abbr gbd 'git branch -D'
 abbr gp 'git push origin HEAD'
 # abbr gpf 'git push origin HEAD --force-with-lease'
 abbr gpl 'git pull'
