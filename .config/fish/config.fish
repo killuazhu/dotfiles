@@ -50,3 +50,4 @@ abbr gsh 'git show'
 add_to_user_path /usr/local/go/bin
 
 config-yubikey-gpg-and-ssh
+init_pyenv
