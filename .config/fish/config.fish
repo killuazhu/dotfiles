@@ -21,6 +21,7 @@ abbr gds 'git diff --staged'
 abbr gc 'git commit -m'
 abbr gcmm 'git checkout --amend -m'
 abbr gcm 'git checkout master'
+abbr gcgp 'git checkout gh-pages'
 # abbr gca 'git commit --all'
 abbr gcam 'git commit -am'
 abbr gcp 'git cherry-pick'
@@ -45,6 +46,8 @@ abbr gs 'git status --short --branch'
 abbr gsi 'git status --short --branch --ignored'
 abbr gsh 'git show'
 
+# direnv hook fish | source
+# starship init fish | source
 
 
 add_to_user_path /usr/local/go/bin
