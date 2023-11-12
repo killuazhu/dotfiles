@@ -12,6 +12,7 @@ cd dotfiles
 
 - install vim plugin manager from https://github.com/junegunn/vim-plug
 - launch vim, then run `:PlugInstall`
+- finish install tmux. After launching tmux, press `prefix + I` (capital `i`, as in Install) to fetch the plugin.
 
 ## Others
 
